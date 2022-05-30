@@ -50,7 +50,7 @@ nav {
     border-radius: 20px;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) /*Tablet responsive*/{
 
     /*prima sezione*/
     .card-fs { width: 31%;
@@ -89,6 +89,19 @@ nav {
         width: 48%;
     }
 
+    /*Quinta sezione abbiamo due colonne disposte di fianco*/
+
+    .row-sx {
+        width: 50%;
+    }
+
+    .row-dx {
+        width: 50%;
+    }
+
+    .fifth-section .col {
+        flex-direction: row;
+    }
     
 
 
