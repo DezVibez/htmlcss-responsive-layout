@@ -63,10 +63,6 @@ h3 {
     width: 100%;
 }
 
-h4 {
-    
-}
-
 .content-ss {
     color: white;
     padding: 30px 0;
@@ -83,3 +79,36 @@ h4 {
     border-radius: 10px;
 }
 
+/*Third section*/
+
+.third-section-first-card {
+    width: 100%;
+
+}
+
+.third-section-second-card {
+    background-color: rgb(151,146,227);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.fourth-section
+{
+    background-color: rgb(151,146,227);}
+
+.benefits {
+    text-align: center;
+}
+
+/*Fourth section*/
+
+
+.fourth-section-card {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0;
+}
