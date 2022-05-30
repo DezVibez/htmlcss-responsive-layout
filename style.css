@@ -50,8 +50,9 @@ nav {
     border-radius: 20px;
 }
 
-@media screen and  (min-width: 481px) {
+@media screen and (min-width: 481px) {
 
+    /*prima sezione*/
     .card-fs { width: 31%;
                }
 
@@ -67,7 +68,31 @@ nav {
         justify-content: space-between;
     }
 
+    /*terza sezione.
+    Assegno al padre degli elementi div 
+    il display flex per disporli a fianco automaticamente*/ 
+   
+    .third-section-second-card {
+        display: flex;
+    }
+
+    /*quarta sezione.
+    voglio che due card prendano il 50%
+    della larghezza di ogni riga*/
     
+    .card-container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .fourth-section-card {
+        width: 48%;
+    }
+
+    
+
+
+
 }
     
 
@@ -104,7 +129,7 @@ h3 {
 
 .third-section-first-card {
     width: 100%;
-
+    
 }
 
 .third-section-second-card {
@@ -122,6 +147,10 @@ h3 {
 }
 
 /*Fourth section*/
+
+.card-container {
+    flex-wrap: wrap;
+}
 
 
 .fourth-section-card {
