@@ -89,7 +89,8 @@ nav {
         width: 48%;
     }
 
-    /*Quinta sezione abbiamo due colonne disposte di fianco*/
+    /*Quinta sezione abbiamo due colonne da disporre di fianco
+    cambio la flex direction e le assegno una width dimezzata*/
 
     .row-sx {
         width: 50%;
@@ -103,9 +104,10 @@ nav {
         flex-direction: row;
     }
     
+    .last-section .container, footer .container
+        {width: 75%;}
 
-
-
+    
 }
     
 
