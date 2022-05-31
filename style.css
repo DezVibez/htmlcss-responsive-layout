@@ -116,7 +116,13 @@ margin: 10px 0;}
    
     .third-section-second-card {
         display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
+   
+    .third-section-second-card img {height: 100%;}
+
 
     /*quarta sezione.
     voglio che due card prendano il 50%
@@ -245,16 +251,34 @@ h3 {
 
 /*Third section*/
 
-.third-section-first-card {
-    width: 100%;
-    
-}
+.third-section-first-card h5 { color:rgb(151,146,227);
+    margin: 10px 0;
+    font-size: 30px;
+    }
+.third-section-first-card  {text-align: center;
+font-size: 16px;
+margin: 10px 0;}
 
 .third-section-second-card {
     background-color: rgb(151,146,227);
     border-radius: 10px;
     margin: 10px 0;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
+
+.third-section-second-card h5 {margin: 10px 0}
+
+
+.third-section-second-card img {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 50%;
+    ;
+    }
+
 
 .fourth-section
 {
