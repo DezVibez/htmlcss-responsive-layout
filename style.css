@@ -24,7 +24,9 @@ footer black rgb(51,51,51)
 
 /*Body*/
 
-/*First section*/
+body {font-family: 'PT Sans', sans-serif;}
+
+
 
 nav {
     background-color: rgb(0,133,253);
@@ -43,6 +45,8 @@ nav {
 
 .ul-nav {display: none;}
 
+/*First section*/
+
 section {margin-top: 30px;}
 
 .col {
@@ -53,9 +57,37 @@ section {margin-top: 30px;}
 .card-fs {
     background-color: rgb(180,221,255);
     padding: 10px 10px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     margin: 10px 0;
     border-radius: 20px;
+}
+
+.card-fs p {margin: 15px 0;}
+
+.button-fs {display: block;
+margin: 10px auto;
+background-color:rgb(0,133,253);
+border-radius: 5px;
+color: white;
+border: 0;
+padding: 5px 10px;}
+
+.card-fs-first {padding-bottom: 0;
+}
+
+.card-fs h3 {color:rgb(0,133,253);
+        text-align: center;}
+
+.card-fs i {color:rgb(0,133,253);
+text-align: center;
+font-size: 60px;
+margin: 10px 0;} 
+
+.phone-img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
 }
 
 @media screen and (min-width: 481px) /*Tablet responsive*/{
@@ -68,6 +100,8 @@ section {margin-top: 30px;}
                 width: 66%;
                
             }
+    .button-fs {display: block;
+        margin: 0 0;}
     
 
     .first-section .col {
@@ -141,6 +175,11 @@ section {margin-top: 30px;}
     border: 0;
     padding: 5px;
     }
+
+    .card-fs-first {display: flex;
+    flex-direction: row;}
+
+    .phone-img {align-self: flex-end;}
 
     .second-section .col {
         display: flex;
