@@ -276,9 +276,9 @@ margin: 10px 0;}
     margin: 10px auto;
     width: 80%;
     border-radius: 50%;
-    ;
     }
 
+/*Fourth section*/
 
 .fourth-section
 {
@@ -286,14 +286,27 @@ margin: 10px 0;}
 
 .benefits {
     text-align: center;
+    margin: 10px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
 }
-
-/*Fourth section*/
 
 .card-container {
     flex-wrap: wrap;
 }
 
+.card-container h5 {color:rgb(151,146,227);
+font-size: 26px;}
+.card-container span {margin:10px 0}
+.card-container button { display: inline-block;
+padding: 5px 10px;
+background-color: rgb(151,146,227);
+color: white;
+border: 0;
+width: 40%;
+border-radius: 20px;
+margin: 20px 0;}
 
 .fourth-section-card {
     background-color: white;
