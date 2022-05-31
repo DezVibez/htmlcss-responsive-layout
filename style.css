@@ -346,7 +346,27 @@ font-weight: 600;}
 
 /*Last section*/
 
-.last-section {background-color: rgb(151,146,227);}
+.last-section {background-color: rgb(151,146,227);
+color: white;
+text-align: center;
+padding: 30px 0;}
+
+.last-section span {color:whitesmoke}
+.last-section h4 {font-size: 20px;
+margin: 10px 0;}
+.last-section h5 {font-size: 30px;
+color: rgb(255, 217, 0);
+margin: 10px 0;}
+.last-section button {color:rgb(151,146,227) ;
+border: 0;
+border-radius: 20px;
+padding: 15px 15px;
+margin: 20px 0;
+}
+.last-section ul {justify-content: center;
+font-size: 14px;}
+.last-section li {margin: 0 20px;}
+
 
 /*Footer*/
 
