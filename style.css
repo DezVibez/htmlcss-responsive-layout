@@ -323,6 +323,26 @@ margin: 20px 0;}
     flex-direction: column;
 }
 
+.row-sx {margin: 20px 0;}
+
+.row-sx p{margin: 20px 0;}
+
+
+
+.row-dx img {width: 50%;
+margin: 20px 0;
+border-radius: 50%;}
+
+.row-dx p, .row-sx span  {color:rgb(151,146,227);
+font-size: 20px;
+font-weight: 600;}
+
+.row-dx button {background-color:rgb(151,146,227);
+    color:white;
+    border-radius:20px;
+    padding:10px 5px;
+    margin: 20px 0;
+    border: 0;}
 
 /*Last section*/
 
